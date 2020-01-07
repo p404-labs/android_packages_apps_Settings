@@ -109,6 +109,12 @@
         settings:controller="com.android.settings.display.PeakRefreshRatePreferenceController" />
 
     <Preference
+         android:key="themes"
+         android:title="@string/themes_title"
+         android:summary="@string/themes_summary"
+         android:fragment="com.android.settings.p404.P404Themes" />
+
+    <Preference
         android:key="font_size"
         android:title="@string/title_font_size"
         android:fragment="com.android.settings.display.ToggleFontSizePreferenceFragment"
